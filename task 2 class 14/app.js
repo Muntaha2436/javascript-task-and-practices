@@ -28,23 +28,23 @@
 
 
 // task 3
-// let now = new Date(); 
-// let ramzan2026 = new Date("2026-02-17T00:00:00"); 
+let now = new Date(); 
+let ramzan2026 = new Date("2026-02-17T00:00:00"); 
 
-// let diffMilliseconds = ramzan2026 - now;
+let diffMilliseconds = ramzan2026 - now;
 
-// let diffSeconds = diffMilliseconds / 1000;
+let diffSeconds = diffMilliseconds / 1000;
 
-// let diffMinutes = diffSeconds / 60;
+let diffMinutes = diffSeconds / 60;
 
 
-// let diffHours = diffMinutes / 60;
+let diffHours = diffMinutes / 60;
 
-// document.write(`Abhi se Ramzan tak milliseconds:${diffMilliseconds}`);
-// document.write("<br/>")
-// document.write(`Abhi se Ramzan tak seconds:${diffSeconds}`);
-// document.write("<br/>")
-// document.write(`Abhi se Ramzan tak minutes:${ diffMinutes}`);
-// document.write("<br/>")
-// document.write(`Abhi se Ramzan tak hours:${diffHours} `);
+document.write(`Abhi se Ramzan tak milliseconds:${diffMilliseconds}`);
+document.write("<br/>")
+document.write(`Abhi se Ramzan tak seconds:${diffSeconds}`);
+document.write("<br/>")
+document.write(`Abhi se Ramzan tak minutes:${ diffMinutes}`);
+document.write("<br/>")
+document.write(`Abhi se Ramzan tak hours:${diffHours} `);
 

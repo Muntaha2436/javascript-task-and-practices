@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("ramadan-sunset-holy-scripture-dates-table-tranquil-scene-featuring-ornate-lantern-glass-water-book-likely-358524760.webp") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  backdrop-filter: brightness(0.7);
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ffdf6c;
+}
+
+.time-box {
+  font-size: 1.3em;
+  line-height: 1.8em;
+}
+
+span {
+  color: #00ffd0;
+  font-weight: bold;
+}
